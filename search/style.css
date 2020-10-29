@@ -1,0 +1,48 @@
+.botones
+{
+    margin-top: 28px;
+}
+.boton
+{
+    margin: 4px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: grey;
+    color: rgb(94, 94, 94);
+    font-size: 14px;
+    border-radius: 5px 5px 5px 5px;
+}
+.barra
+{
+    margin-top: 5px;
+    width: 475px;
+    height: 40px;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 30px 30px 30px 30px;
+}
+#formu div {
+    margin-top: 10px;
+}
+.advanced {
+    width: 375px;
+    height: 30px;
+    border: 1px solid rgb(224, 224, 224);
+}
+.azul {
+    margin-top: 10px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border:blue;
+    background-color: rgb(65, 125, 255);
+    color: white;
+    font-size: 14px;
+    border-radius: 3px 3px 3px 3px;
+}
+span {
+    font-weight: 400;
+    font-size: large;
+}

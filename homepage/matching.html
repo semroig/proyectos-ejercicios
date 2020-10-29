@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <link rel="shortcut icon" type="image/svg" href="images/header.svg">
+
+        <title>Hey there! It's me</title>
+
+    </head>
+    <body>
+        <div class="botonera">
+            <button type="button" class="btn btn-primary"
+            onclick="document.location='index.html'">Homepage</button>
+            <button type="button" class="btn btn-success">How much do we match?</button>
+            <button type="button" class="btn btn-danger"
+            onclick="document.location='motivation.html'">Motivation</button>
+            <button type="button" class="btn btn-warning"
+            onclick="document.location='portfolio.html'">Portfolio</button>
+            <button type="button" class="btn btn-info">Don't click THIS button!</button>
+        </div>
+
+        <div class="card" style="text-align: center; max-width: 800px; margin-left: auto; margin-right: auto; margin-top: 10px;">
+          <div class="card-header" style="font-size: 50px; padding: 0px;">
+            Let's see if we are friends...
+          </div>
+          <div class="card-body">
+            <h3 class="card-title" id="titulo">¿Qué saga es menos mala?</h3>
+            <div>
+                <img src="https://cdn.hipwallpaper.com/i/60/9/GI5PWf.jpg" class="retrato" id="first" alt="game">
+                <img src="https://wallpapercave.com/wp/wp1826677.jpg" class="retrato" id="second" alt="game">
+            </div>
+            <div id="botones">
+                <a href="#" class="btn btn-primary" onclick="game();" id="bot1">The Maze Runner</a>
+                <a href="#" class="btn btn-primary" onclick="game();" id="bot2">Divergent</a>
+            </div>
+            <div class="alert alert-success" role="alert" id="cartel" style="visibility: hidden;">
+                I have to figure out how to tell de matching still :/
+            </div>
+
+          </div>
+
+        </div>
+
+        <footer>
+            Developed with love, check my
+            <a href="https://www.linkedin.com/in/sem-gabriel-roig" target="_blank">Linkedin</a>.
+
+        </footer>
+        <script src="codigo.js"></script>
+    </body>
+</html>

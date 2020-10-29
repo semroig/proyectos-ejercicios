@@ -1,0 +1,33 @@
+.retrato
+{
+    border-radius: 10px;
+    height: 200px;
+}
+
+body
+{
+    background-color: #faf5ef;
+}
+
+.btn
+{
+    font-size: 20px;
+    margin: 5px;
+}
+
+.botonera
+{
+    text-align: center;
+    padding: 5px;
+}
+
+h1
+{
+    font-size: 50px;
+}
+
+footer
+{
+    margin-top: 25px;
+    margin-left: 40px;
+}

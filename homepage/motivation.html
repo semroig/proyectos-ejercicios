@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <link rel="shortcut icon" type="image/svg" href="images/header.svg">
+        <script src="codigo.js"></script>
+
+        <title>Hey there! It's me</title>
+
+    </head>
+    <body>
+        <div class="botonera">
+            <button type="button" class="btn btn-primary"
+            onclick="document.location='index.html'">Homepage</button>
+            <button type="button" class="btn btn-success"
+            onclick="document.location='matching.html'">How much do we match?</button>
+            <button type="button" class="btn btn-danger">Motivation</button>
+            <button type="button" class="btn btn-warning"
+            onclick="document.location='portfolio.html'">Portfolio</button>
+            <button type="button" class="btn btn-info">Don't click THIS button!</button>
+        </div>
+
+        <h1 style="text-align: center">Free motivational phrase</h1>
+        <p id="frase"></p>
+        <button type="button" onclick="quotes();"> Click here for new quote</button>
+
+        <footer>
+            Developed with love, check my
+            <a href="https://www.linkedin.com/in/sem-gabriel-roig" target="_blank">Linkedin</a>.
+        </footer>
+    </body>
+</html>

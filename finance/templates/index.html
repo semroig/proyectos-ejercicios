@@ -1,0 +1,48 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Symbol</th>
+      <th scope="col">Name</th>
+      <th scope="col">Shares</th>
+      <th scope="col">Price</th>
+      <th scope="col">TOTAL</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for fila in tabla %}
+        <tr>
+            <td>{{ fila['symbol'] }}</td>
+            <td>{{ fila['name'] }}</td>
+            <td>{{ fila['SUM(shares)'] }}</td>
+            <td>{{ fila['price'] }}</td>
+            <td>{{ fila['total'] }}</td>
+        </tr>
+    {% endfor %}
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>CASH</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>{{ cash }}</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td style="font-weight: bold;">{{ total }}</td>
+    </tr>
+  </tfoot>
+</table>
+
+{% endblock %}
